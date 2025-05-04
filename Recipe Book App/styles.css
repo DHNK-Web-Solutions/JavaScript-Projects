@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(234, 230, 217);
+}
+h1 {
+  height: 80px;
+  background-color: rgb(101, 183, 29);
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+#recipeList {
+  margin: 20px auto;
+  width: 90%;
+}
+.listItem {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 5px gray;
+  height: 200px;
+  overflow: hidden;
+}
+.listItem img {
+  width: 20%;
+  height: 90%;
+  padding: 10px;
+  padding-top: 20px;
+}
+.listItem h2 {
+  width: 20%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+.listItem p {
+  width: 50%;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+.listItem a {
+  width: 10%;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: monospace;
+  text-decoration: none;
+  font-size: 20px;
+}
