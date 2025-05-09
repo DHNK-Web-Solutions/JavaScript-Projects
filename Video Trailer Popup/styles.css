@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+}
+#container {
+  width: 600px;
+  margin: 50px auto;
+}
+#container img {
+  width: inherit;
+  border-radius: 10px;
+  box-shadow: 0 0 5px white;
+  margin-bottom: 30px;
+}
+#container h1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+}
+#container p {
+  color: white;
+  font-family: monospace;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+#container button {
+  width: 100px;
+  height: 40px;
+  border-radius: 9px;
+  border: none;
+}
+#popup {
+  visibility: hidden;
+}
+#close {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  height: 40px;
+  width: 40px;
+  font-size: 30px;
+  background-color: transparent;
+  font-family: monospace;
+  color: white;
+  border: none;
+  display: block;
+}
+video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: block;
+  height: 500px;
+  /* z-index: 3; */
+}
+.hide {
+  visibility: hidden;
+}
+.show {
+  visibility: visible;
+  animation: fadeIn 1s;
+}
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Trailer Popup</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div id="container">
+    <img src="./assets/image.jpg"/>
+    <h1>Movie Title</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eveniet ducimus quibusdam in non, inventore natus? Adipisci totam dolorem, quos distinctio ex molestiae et reprehenderit natus cumque magnam? Necessitatibus, nam!</p>
+    <button onclick="myFunction()">Watch now</button>
+  </div>
+  <div id="popup">
+    <button id="close" onclick="myFunction()">X</button>
+    <video controls id="video">
+      <source src="./assets/Monk Solves the  Robot  Robbery _ Monk.mp4" type="video/mp4"/>
+    </video>
+  </div>  
+  <script src="./index.js"></script>
+</body>
+</html>
